@@ -8,8 +8,8 @@ PARSER.add_argument("username", help="Username to connect to the hosts.")
 ARGS = PARSER.parse_args()
 
 #assign variables
-#HOSTS = (ARGS.hostname).split(",") #split the hostname input on comma
-#USERNAME = ARGS.username #username will be the same for each host
+hostname = ARGS.hostname
+username = ARGS.username
 
 #if not USERNAME:
 #    USERNAME = admin
