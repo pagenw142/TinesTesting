@@ -1,11 +1,11 @@
 import argparse
 
 #set up argument parsing
-PARSER = argparse.ArgumentParser()
-PARSER.add_argument("hostname", help="Hostname can be one or many hostnames. Separate multiple hostnames by comma")
-PARSER.add_argument("username", help="Username to connect to the hosts.")
+#PARSER = argparse.ArgumentParser()
+#PARSER.add_argument("hostname", help="Hostname can be one or many hostnames. Separate multiple hostnames by comma")
+#PARSER.add_argument("username", help="Username to connect to the hosts.")
 
-ARGS = PARSER.parse_args()
+#ARGS = PARSER.parse_args()
 
 #assign variables
 #HOSTS = (ARGS.hostname).split(",") #split the hostname input on comma
