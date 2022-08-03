@@ -1,7 +1,7 @@
 import subprocess
 
 
-def run(self, cmd):
+def run(self):
     completed = subprocess.run(["powershell", "-Command"], capture_output=True)
     return completed
 
